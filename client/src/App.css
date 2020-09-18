@@ -33,3 +33,12 @@
     background-color: rgba(151, 151, 151, 0.877);
     font-size: 22px;
 }
+
+.loading{
+    display: block;
+    width: fit-content;
+    margin: 20% auto;
+    font-size: 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}

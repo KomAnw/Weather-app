@@ -26,7 +26,7 @@ export default function App() {
   return (
     <div className="App">
       <Main />
-      {click ? <Forecast data={data} /> : <Description />}
+      {click ? (data ? <Forecast data={data} /> : <div className="loading">Loading..</div>) : <Description />}
       <button className="Button" onClick={clicked}>
         Get weather forecast
       </button>
