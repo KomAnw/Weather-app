@@ -1,0 +1,66 @@
+.OtherBoards{
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+
+.card__main-info{
+    padding: 10px 5px 0 5px;
+}
+
+.card__date{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+
+.card_img{
+    display: block;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.card__deg{
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card__other-info{
+    margin: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+.card__item{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card__item:last-child{
+    border-bottom: none;
+}
+
+.card__itwm-bold{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
